@@ -1,1 +1,5 @@
 java -Xmx8024M -Xms2024M -jar server.jar nogui
+curl -s https://install.zerotier.com | sudo bash
+zerotier-cli join a84ac5c10a421666
+service --status-all
+zerotier-one
